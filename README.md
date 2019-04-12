@@ -1,4 +1,5 @@
 # vuedemos
+<<<<<<< HEAD
 
 ## Project setup
 ```
@@ -27,3 +28,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+=======
+ok
+>>>>>>> 3e9832476cca73ca48c8294f4fe77188e0e87787
