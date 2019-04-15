@@ -31,14 +31,12 @@
     "vue-template-compiler": "^2.5.21"
   },
   "postcss": {
-    "postcss-pxtorem": {
-      "rootValue": 75,
-      "propList": [
-        "*"
-      ],
-      "selectorBlackList": [
-        "mint-"
-      ]
+    "plugins":{
+      "postcss-pxtorem": {
+        "rootValue": 75,
+        "propList": ["*"],
+        "selectorBlackList": ["mint-"]
+      }
     }
   }
 }
