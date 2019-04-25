@@ -1,0 +1,11 @@
+<svg id="SSW" data-name="ssw-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs>
+		<style>.cls-1{fill:url(#liner);}</style>
+	    <linearGradient id="liner" x1="74.55" y1="310" x2="675.45" y2="481.46" gradientUnits="userSpaceOnUse">
+			<stop offset="0.02" stop-color="#5d7a89"/>
+			<stop offset="0.08" stop-color="#f8ffff"/>
+			<stop offset="0.3" stop-color="#002738"/>
+	    </linearGradient>
+	</defs>
+	<polygon class="cls-1"  style=" stroke:#3f646e; stroke-width:10px;" points="74.55 239.44 210.6 542.73 374.1 726.21 548.13 536.49 347.45 537.25 429.97 571.09 373.38 644.87 289.62 536.41 228.18 386.83 371.72 446.54 512.89 391.33 462.42 519.77 551.7 518.52 675.45 236.71 430.25 339.89 372.79 391.94 311.7 338.04 74.55 239.44"/>
+</svg>

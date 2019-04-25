@@ -8,7 +8,7 @@ const PRO_HOST="http://www.gzsimon.cn:8080"
 
 
 
-const GET_USERS_API ="/api/usrs"
+const GET_USERS_API ="/api/users"
 
 export default {  //对外输出对象
 	SAT_HOST,
