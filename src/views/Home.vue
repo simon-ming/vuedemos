@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.svg">
+    <!-- <img alt="Vue logo" src="../assets/logo.svg"> -->
     <HelloWorld msg="Welcome to my demos"/>
     <!-- <Logo /> -->
     <List/>  

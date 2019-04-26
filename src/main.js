@@ -7,6 +7,12 @@ import './mock'; //直接在顶部使用
 import flexible from "lib-flexible";
 import './registerServiceWorker';
 
+import ElementUI from "element-ui";//引入elementui
+import "element-ui/lib/theme-chalk/index.css";
+
+
+Vue.use(ElementUI)
+
 
 Vue.config.productionTip = false
 

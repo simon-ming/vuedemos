@@ -11,10 +11,11 @@ export function getUsers(){
 		.then(({data,status})=>{
 			if(!status==200){
 				console.log("请求失败!")
+				reject();
 			}else{
 				//请求成功
 				resolve(data)//返回data
-				// console.log(data)
+				console.log(data)
 			}
 		})
 	})

@@ -1,7 +1,13 @@
 <template>
 	<div class="list">
 		<ul>
-			<li></li>
+			<li v-for="(item,i) in data" :key="i" >
+				<img :src="item.avatar">
+				<p>name:{{item.name}}</p>
+				<p>age:{{item.age}}</p>
+				<p>birthday:{{item.birthday}}</p>
+				<p>city:{{item.city}}</p>
+			</li>
 		</ul>
 	</div>
 </template>
@@ -19,7 +25,8 @@ import {getUsers} from "@/services/user";
 		},
 		created(){
 			getUsers().then((data)=>{
-				this.data=data
+				this.data=data.user
+				console.log(this.data)
 			})
 		}
 	};
