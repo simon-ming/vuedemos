@@ -47,10 +47,10 @@ Tool.prototype.BubbleSort=function(arr){//冒泡排序
 	}
 	return arr;
 }
-Tool.prototype.quickSort=function(){  //快速排序
+Tool.prototype.quickSort=function(arr){  //快速排序
 
 	if(arr.length<=1) {
-	    return arr;0
+	    return arr[0];
 	}
 
 	let leftArr = [];//定义左侧为小于参照值的数组
@@ -67,7 +67,7 @@ Tool.prototype.quickSort=function(){  //快速排序
 
 }
 
-Tool.prototype.selectSort=function(){//选择排序
+Tool.prototype.selectSort=function(arr){//选择排序
 	var len=arr.length;
     var temp;
     for(var i=0;i<len-1;i++){//从第一个开始比较,
