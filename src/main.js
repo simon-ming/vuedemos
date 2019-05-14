@@ -10,7 +10,6 @@ import './registerServiceWorker';
 import ElementUI from "element-ui";//引入elementui
 import "element-ui/lib/theme-chalk/index.css";
 
-
 Vue.use(ElementUI)
 
 

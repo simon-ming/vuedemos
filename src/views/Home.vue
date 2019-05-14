@@ -3,7 +3,8 @@
     <!-- <img alt="Vue logo" src="../assets/logo.svg"> -->
     <HelloWorld msg="Welcome to my demos"/>
     <!-- <Logo /> -->
-    <List/>  
+    <!-- <List/>   -->
+    <Modify/>
   </div>
 </template>
 
@@ -12,13 +13,15 @@
 import HelloWorld from '@/components/HelloWorld.vue';
 import Logo from '@/components/Logo.vue';
 import List from '@/pages/List.vue';
+import Modify from '@/pages/mine/Modify.vue';
 
 export default {
   name: 'home',
   components: {
     HelloWorld,
     Logo,
-    List
+    List,
+    Modify
   },
   created(){
   }
