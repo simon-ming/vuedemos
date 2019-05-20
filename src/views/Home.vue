@@ -5,6 +5,7 @@
     <!-- <Logo /> -->
     <!-- <List/>   -->
     <Modify/>
+     
   </div>
 </template>
 
@@ -17,6 +18,11 @@ import Modify from '@/pages/mine/Modify.vue';
 
 export default {
   name: 'home',
+  data(){
+    return {
+      address:""
+    }
+  },
   components: {
     HelloWorld,
     Logo,

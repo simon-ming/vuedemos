@@ -1,4 +1,4 @@
-var data=CityInfo = [
+export default { city : [
   {
     "value": "110000",
     "label": "北京市",
@@ -14248,3 +14248,4 @@ var data=CityInfo = [
     ]
   }
 ]
+}
